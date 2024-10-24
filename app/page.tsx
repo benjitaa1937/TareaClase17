@@ -56,6 +56,13 @@ export default function Home() {
           >
             Ejemplo Botón
           </button>
+          <button
+            type="button"
+            className="block w-full rounded-md bg-rose-600 px-5.5 py-3.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            onClick={() => window.location.href = 'https://uai.cl/'}
+          >
+            Acceder a sitio web UAI
+          </button>
           {/* Sizes */}
           <fieldset aria-label="Choose a size" className="mt-10">
             <div className="flex items-center justify-between">
